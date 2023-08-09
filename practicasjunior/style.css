@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(195, 41%, 55%);
+width: 100;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+header ul li{
+    margin: 10px;
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+img{
+    width: 300px;
+}
+
+h1{font-size: 30px;
+    color: #003459;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(194, 232, 241);
+    margin: 10px 0 10px 0;
+}
+
+.caja{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    text-align:center;
+    padding: 20px;
+}
+
+.caja p{
+    font: size 15px;
+    margin: 0;
+}
+
+.caja img{
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion h1{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center; 
+    padding: 30px;
+}
+
+.presentacion p{
+    display: flex;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    margin: 0px 200px 60px 200px;
+}
+
+#sobremi h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#sobremi p{
+    font-size: 18px;
+    justify-content: left;
+
+}
+
+footer{
+    background-color: hsl(195, 41%, 55%);
+    padding: 10px;
+}
+
+.custom-h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.carousel-inner img {
+    max-width: 540px; 
+    margin: 100px;
+}
